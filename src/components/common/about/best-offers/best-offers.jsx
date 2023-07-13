@@ -9,6 +9,9 @@ import {
     GiCarWheel,
 } from "react-icons/gi";
 import { MdFamilyRestroom, MdOutlineWorkspacePremium } from "react-icons/md";
+import "./best-offers.scss"
+
+
 const { offers } = constants;
 
 const offerIcons = [
