@@ -1,9 +1,17 @@
+import axios from "axios";
 
+const API_URL = import.meta.env.VITE_APP_API_URL;
 
 // COMMON ENDPOINTS
 export const getVehicleById = () => { };
-export const getVehicles = () => { };
-export const getVehiclesByPage = () => { };
+export const getVehicles = async () => {
+
+    const response = await axios.get(`${API_URL}/car/visitors/all`);
+    return response.data; // handle empty array case for error handling in component side
+ };
+
+
+export const getVehiclesByPage = async () => { };
 
 // ADMIN ENDPOINTS
 export const addVehicle = () => { };
