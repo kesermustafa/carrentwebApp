@@ -15,7 +15,7 @@ $breakpointsm: 576px;
     @media (max-width: $breakpoint) {
         @include m.flexbox(column, space-between, stretch);
         position: relative;
-    }
+    } 
 
     .logo {
         @include m.flexbox(row, center, center);

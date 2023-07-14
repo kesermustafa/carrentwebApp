@@ -4,10 +4,12 @@
 $breakpoint: 576px;
 
 .slider {
+    
     .swiper-wrapper {
+        
         .swiper-slide {
             position: relative;
-
+            
             &::after {
                 content: "";
                 position: absolute;
@@ -34,6 +36,7 @@ $breakpoint: 576px;
                 h2 {
                     font-size: 3rem;
                     font-weight: 600;
+                    //text-transform: capitalize;                    
                 }
             }
         }
