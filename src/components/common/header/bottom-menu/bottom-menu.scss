@@ -7,7 +7,7 @@ $breakpointsm: 576px;
 .bottom-menu {
     flex: 1;
     padding: 1rem;
-   
+
     .navbar {
         padding: 0 0.5rem 0.5rem 0.5rem;
     }
@@ -29,11 +29,8 @@ $breakpointsm: 576px;
     }
 
     @media (max-width: $breakpointsm) {
-        
-        
-        
         .navbar-toggler {
-           right: 0;
+            right: 0;
         }
     }
 

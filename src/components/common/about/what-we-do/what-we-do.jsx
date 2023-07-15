@@ -50,8 +50,3 @@ const WhatWeDo = () => {
 };
 
 export default WhatWeDo;
-
-
-
-
-

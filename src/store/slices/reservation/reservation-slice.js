@@ -18,4 +18,3 @@ const reservationSlice = createSlice({
 
 export const { setReservations, setVehicle } = reservationSlice.actions;
 export default reservationSlice.reducer;
-

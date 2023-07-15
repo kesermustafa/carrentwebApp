@@ -6,6 +6,7 @@ import {
     WhatWeDo,
     WhoWeAre,
 } from "../../../components";
+
 const AboutPage = () => {
     return (
         <>
@@ -21,4 +22,5 @@ const AboutPage = () => {
         </>
     );
 };
+
 export default AboutPage;

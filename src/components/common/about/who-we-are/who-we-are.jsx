@@ -15,8 +15,6 @@ const WhoWeAre = () => {
                         <img src="/img/about_1.jpg" alt="Who We Are" />
                         <div className="border-left"></div>
                         <div className="border-top"></div>
-                        <div className="border-right"></div>
-                        <div className="border-bottom"></div>
                     </div>
                 </Col>
                 <Col lg={9} className="who-we-are-content">
@@ -36,8 +34,6 @@ const WhoWeAre = () => {
                             alt="Who We Are"
                             className="right"
                         />
-                        <div className="border-left"></div>
-                        <div className="border-top"></div>
                         <div className="border-right"></div>
                         <div className="border-bottom"></div>
                     </div>

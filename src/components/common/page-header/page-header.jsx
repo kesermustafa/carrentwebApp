@@ -1,6 +1,5 @@
-
-
 import "./page-header.scss";
+
 const PageHeader = (props) => {
     return (
         <div className="page-header">
@@ -8,4 +7,5 @@ const PageHeader = (props) => {
         </div>
     );
 };
+
 export default PageHeader;

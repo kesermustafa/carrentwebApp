@@ -11,7 +11,6 @@ const Vehicles = () => {
     const loadData = async (page) => {
         try {
             const vehiclesData = await services.vehicle.getVehiclesByPage(page);
-            console.log(vehiclesData);
             const {
                 content,
                 totalPages,
@@ -39,7 +38,7 @@ const Vehicles = () => {
                 desc="Explore our diverse range of high-quality vehicles. Whether you're seeking a fuel-efficient compact for city trips, a robust SUV for outdoor adventures, or a luxury sedan for utmost comfort, our comprehensive fleet is sure to cater to your specific needs."
             />
             {loading ? (
-                <Loading />
+                <Loading height={500} />
             ) : (
                 <>
                     <Row className="gy-4">
@@ -53,7 +52,7 @@ const Vehicles = () => {
                     </Row>
                     {paging?.totalPages > 1 && (
                         <Row className="mt-5">
-                            <CustomPagination 
+                            <CustomPagination
                                 loadData={loadData}
                                 paging={paging}
                             />

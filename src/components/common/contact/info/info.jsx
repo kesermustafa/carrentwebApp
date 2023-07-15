@@ -3,7 +3,7 @@ import { BiHeadphone } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 import { constants } from "../../../../constants";
-import "./info.scss"
+import "./info.scss";
 
 const {
     website: { phone, phone2, mapUrl, address, email },

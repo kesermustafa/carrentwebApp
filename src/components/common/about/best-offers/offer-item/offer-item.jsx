@@ -1,4 +1,4 @@
-import "./offer-item.scss"
+import "./offer-item.scss";
 
 const OfferItem = (props) => {
     // title, desc, direction, icon
@@ -16,4 +16,3 @@ const OfferItem = (props) => {
 };
 
 export default OfferItem;
-

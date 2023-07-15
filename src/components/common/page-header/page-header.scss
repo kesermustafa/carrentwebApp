@@ -15,11 +15,11 @@ $breakpointxs: 400px;
     // tozlu filigran
     &:after {
         content: "";
-         position: absolute;
-         inset: 0;
+        position: absolute;
+        inset: 0;
         background-color: v.$color3;
-         opacity: 0.4;
-     }
+        opacity: 0.1;
+    }
 
     h1 {
         color: v.$color1;

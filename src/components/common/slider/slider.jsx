@@ -4,7 +4,6 @@ import { constants } from "../../../constants";
 import "./slider.scss";
 
 const { slider } = constants;
-console.log(slider);
 
 const Slider = () => {
     return (
@@ -13,7 +12,6 @@ const Slider = () => {
             pagination={{ clickable: true }}
             navigation={true}
             modules={[Navigation, Pagination, EffectFade, Autoplay]}
-            spaceBetween={50}
             autoplay={{
                 delay: 5000,
                 disableOnInteraction: false,
@@ -26,7 +24,7 @@ const Slider = () => {
                         <p>{slide.subtitle}</p>
                     </div>
                     <img
-                        src={`./img/${slide.image}`}
+                        src={`/img/${slide.image}`}
                         alt={slide.title}
                         title={slide.title}
                     />

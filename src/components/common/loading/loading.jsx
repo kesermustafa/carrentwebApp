@@ -1,4 +1,3 @@
-
 import { Spinner } from "react-bootstrap";
 import "./loading.scss";
 

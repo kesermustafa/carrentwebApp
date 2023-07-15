@@ -11,4 +11,3 @@ export const store = configureStore({
 
 export { loginSuccess, loginFailure, logout } from "./slices/auth/auth-slice";
 export { setReservations, setVehicle } from "./slices/reservation/reservation-slice";
-

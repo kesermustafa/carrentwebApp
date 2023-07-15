@@ -1,10 +1,8 @@
 @use "../../../styles/variables" as v;
-@use "../../../styles//mixins" as m;
+@use "../../../styles/mixins" as m;
 
 $breakpoint: 992px;
 $breakpointsm: 576px;
-
-
 
 .header {
     @include m.flexbox($align-items: stretch);
@@ -15,7 +13,7 @@ $breakpointsm: 576px;
     @media (max-width: $breakpoint) {
         @include m.flexbox(column, space-between, stretch);
         position: relative;
-    } 
+    }
 
     .logo {
         @include m.flexbox(row, center, center);
@@ -77,5 +75,3 @@ $breakpointsm: 576px;
         flex: 1;
     }
 }
-
-

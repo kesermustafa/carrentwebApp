@@ -36,4 +36,3 @@ const CustomPagination = (props) => {
 };
 
 export default CustomPagination;
-

@@ -1,4 +1,3 @@
-
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { ImHome } from "react-icons/im";
 import { BsCarFrontFill, BsInfoCircleFill, BsHeadphones } from "react-icons/bs";
@@ -36,7 +35,6 @@ const navigationLinks = [
 
 const BottomMenu = () => {
     const { pathname } = useLocation();
-    console.log(pathname);
 
     return (
         <div className="bottom-menu">

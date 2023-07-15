@@ -11,9 +11,7 @@ $breakpointsm: 576px;
     padding: 1rem;
 
     @media (max-width: $breakpoint) {
-        border-bottom: 0;       
-       
-        display: none;
+        border-bottom: 0;
     }
 
     @media (max-width: $breakpointsm) {
@@ -47,6 +45,3 @@ $breakpointsm: 576px;
         }
     }
 }
-
-
-

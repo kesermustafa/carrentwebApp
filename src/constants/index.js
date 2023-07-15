@@ -160,19 +160,7 @@ const slider = [
         image: "slider2.jpg",
         title: "Unleash the Power of Performance",
         subtitle: "Experience the exhilaration of our high-performance cars as you conquer winding roads, surrounded by the picturesque beauty of nature. With precision engineering and advanced safety features, our vehicles deliver a driving experience that combines excitement and professionalism."
-    },
-    {
-        id: 3,
-        image: "what_we_do.jpg",
-        title: "Powerful Performance in all Seasons",
-        subtitle: "Our vehicles offer a driving experience that combines excitement and professionalism with its powerful and high performance features in all seasons and conditions of nature."
-    },  
-    {
-        id: 4,
-        image: "header_bg.jpg",
-        title: "Suitable for all Terrain Conditions",
-        subtitle: "Our vehicles offer a driving experience that combines excitement and professionalism with powerful and high performance features in all natural conditions."
-    }, 
+    }
 ];
 
 

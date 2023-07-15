@@ -1,4 +1,3 @@
-
 import { Col, Container, Row } from "react-bootstrap";
 import { SectionHeader, Spacer, TeamMember } from "../../../";
 import { constants } from "../../../../constants";
