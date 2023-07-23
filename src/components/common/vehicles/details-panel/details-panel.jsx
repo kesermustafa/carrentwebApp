@@ -69,8 +69,6 @@ const DetailsPanel = () => {
         },
     ];
 
-    console.log(vehicle);
-
     return (
         <div className="details-panel">
             <div className="panel-title">
