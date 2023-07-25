@@ -15,6 +15,7 @@ import {
 } from "react-bootstrap";
 import { services } from "../../../../services";
 import { constants } from "../../../../constants";
+import moment from "moment/moment";
 
 const { routes } = constants;
 
@@ -34,6 +35,7 @@ const formItems = [
         name: "pickUpDate",
         type: "date",
         floating: true,
+        min: moment().format("YYYY-MM-DD"),
     },
     {
         label: "Pick Up Time",
