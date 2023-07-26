@@ -11,7 +11,7 @@ const PasswordInput = (props) => {
         const newType = type === "password" ? "text" : "password";
         setType(newType);
     };
-    
+
     const properties = {
         type,
         disabled: props.disabled,
