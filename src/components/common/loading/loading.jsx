@@ -7,11 +7,13 @@ const Loading = (props) => {
         height: props.height,
     };
 
+
     return (
         <div className="loading" style={styles}>
             <Spinner animation="border" />
         </div>
     );
 };
+
 
 export default Loading;
