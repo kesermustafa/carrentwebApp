@@ -10,7 +10,8 @@ const App = () => {
     const dispatch = useDispatch();
 
     // NEDEN
-    // git localStorage'a bak, token var mi yok mu diye kontrol et, varsa token'i al, endpoint'e git ve kullaniciyi almak icin istek gonder, gelen kullanici bilgisini merkezi state'e yaz
+    // git localStorage'a bak, token var mi yok mu diye kontrol et, varsa token'i al,
+    // endpoint'e git ve kullaniciyi almak icin istek gonder, gelen kullanici bilgisini merkezi state'e yaz
 
     const loadData = async () => {
         try {
