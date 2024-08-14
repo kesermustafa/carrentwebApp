@@ -62,7 +62,7 @@ $breakpointxl: 1200px;
 
         &:nth-child(1) {
             @include m.button(v.$color4, v.$color1, v.$color1, v.$color4);
-            border: 1px solid v.$color1;
+            border: 1px solid  #324681;
         }
 
         &:nth-child(2) {
